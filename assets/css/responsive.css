@@ -1,0 +1,1469 @@
+/* extra large screen :1400px. */
+@media (min-width: 1400px) and (max-width: 1500px) {
+}
+
+/******** Big screen :1200px. **********/
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* =====================================================================================
+            index.html section css
+    ==================================================================================== */
+
+  /* header section  */
+  .section_header {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: -112px;
+  }
+
+  .section_header .hader_left .brand_name {
+    font-size: 14px;
+    margin-left: 12px;
+    position: relative;
+    top: 3px;
+  }
+
+  .section_header .hader_center ul li a {
+    font-size: 16px;
+  }
+
+  .section_header .hader_center ul {
+    gap: 20px;
+  }
+
+  .section_header .hader_right p {
+    font-size: 16px;
+  }
+
+  .section_header .hader_right i img {
+    width: 12px;
+    position: relative;
+    top: -2px;
+  }
+
+  /* hero section  */
+  .hero_section .hero_wrapper .single_slide {
+    height: 670px;
+  }
+  .hero_section .hero_wrapper .hero_content h1 {
+    font-size: 42px;
+  }
+  .brand_logo {
+    bottom: 25%;
+  }
+
+  /* noinoi section  */
+  .section__noioi .container {
+    max-width: 1140px;
+  }
+  .section__noioi {
+    padding-top: 185px;
+  }
+
+  .section__noioi_content h1 {
+    padding-top: 24px;
+    padding-bottom: 36px;
+    font-size: 36px;
+  }
+
+  .section__noioi_content p {
+    font-size: 16px;
+    max-width: 560px;
+  }
+  .section__noioi_thumb {
+    max-width: 420px;
+    height: 484px;
+    position: relative;
+    top: 30px;
+  }
+  .section__noioi_thumb::after {
+    width: 266px;
+    height: 289px;
+  }
+
+  /* ol section  */
+  .section_Οι {
+    padding-top: 185px;
+    padding-bottom: 200px;
+    margin-top: -24px;
+  }
+
+  .ol_card_content .ol_thum {
+    max-width: 252px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 23px;
+  }
+  /*============ section_Οι (5) Area Start =============*/
+
+  .section_floor .container {
+    max-width: 1140px;
+    height: 489px;
+  }
+
+  .section_floor_content {
+    max-width: 1105px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    font-size: 28px;
+    font-family: "MetaSerifPro";
+  }
+
+  /*============ section__flor Area End =============*/
+
+  /*============section_gallary (6) Area Start =============*/
+
+  .section_gallary .gallary_wrapper .owl-nav .owl-prev {
+    margin-left: -60px;
+  }
+
+  .section_gallary .gallary_wrapper .owl-nav .owl-next {
+    margin-right: -60px;
+  }
+
+  /*============ section_gallary Area End =============*/
+  /* footer area start from here  */
+
+  .section_footer .container {
+    max-width: 1140px;
+  }
+
+  .footer_content {
+    padding-top: 38px;
+    padding-bottom: 99px;
+  }
+
+  .footer_left_content ul li {
+    font-size: 16px;
+  }
+
+  .footer_left_content {
+    gap: 50px;
+    padding-left: 0;
+  }
+
+  .footer_left_content__address li,
+  .footer_left_content__contact li {
+    margin-bottom: 7px;
+  }
+
+  .footer_left_content__contact span {
+    margin-right: 16px;
+  }
+
+  .footer_right_content {
+    padding-right: 0;
+  }
+
+  .footer_right_content ul {
+    gap: 41px;
+  }
+
+  .footer_right_content ul li a {
+    font-size: 16px;
+  }
+
+  /****================================      εταιρία (eta.html) HTml file responsive =================================****/
+
+  .etapia_section_tenteak .tenteak_thumb {
+    right: -40px;
+  }
+
+  /****================================      Υπηρεσίες (yrn.html) HTml file responsive =================================****/
+  .Υπηρεσίες_section_card_even .container {
+    max-width: 1140px;
+  }
+
+  /****================================      Επικοινωνία (erl.html) HTml file responsive =================================****/
+  .Επικοινωνία_contact_form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .Επικοινωνία_map {
+    margin: 0 auto;
+    padding-left: 45px;
+  }
+}
+
+/************ Normal screen :992px. *********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* =====================================================================================
+            index.html section css
+    ==================================================================================== */
+
+  /* header section  */
+  .section_header {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: -112px;
+  }
+
+  .section_header .hader_left .brand_name {
+    display: none !important;
+  }
+
+  .section_header .hader_center ul li a {
+    font-size: 16px;
+  }
+
+  .section_header .hader_center ul {
+    gap: 20px;
+  }
+
+  .section_header .hader_right p {
+    font-size: 16px;
+  }
+
+  .section_header .hader_right i img {
+    width: 12px;
+    position: relative;
+    top: -2px;
+  }
+
+  /* hero section  */
+  .hero_section .hero_wrapper .single_slide {
+    height: 600px;
+  }
+  .hero_section .hero_wrapper .hero_content h1 {
+    font-size: 36px;
+  }
+  .hero_section .hero_wrapper .hero_content span {
+    font-size: 20px;
+  }
+
+  .brand_logo {
+    bottom: 20%;
+  }
+
+  /* ---- hero_bottom_content section start----  */
+
+  .hero_bottom_content {
+    margin-top: -100px;
+  }
+
+  .inner_single_hero_bottom_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 29px;
+    padding-right: 60px;
+    gap: 33px;
+  }
+
+  .inner_single_hero_bottom_slide_content h2 {
+    font-size: 22px;
+    margin-bottom: 35px;
+  }
+
+  .inner_single_hero_bottom_slide_content p {
+    font-size: 16px;
+  }
+
+  .hero_bottom_content .hero_bottom_content_wrapper .owl-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+
+  /*=========== hero bottom section end ======== */
+
+  /* noinoi section  */
+  .section__noioi .container {
+    max-width: 968px;
+  }
+  .section__noioi {
+    padding-top: 185px;
+  }
+
+  .section__noioi_content h1 {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-size: 28px;
+  }
+
+  .section__noioi_content p {
+    max-width: 485px;
+  }
+  .section__noioi_thumb {
+    max-width: 380px;
+    height: 484px;
+    position: relative;
+    top: 30px;
+  }
+  .section__noioi_thumb::after {
+    width: 266px;
+    height: 289px;
+  }
+
+  /* ol section  */
+  .section_Οι {
+    padding-bottom: 135px;
+    padding-top: 200px;
+  }
+  .Οι_header {
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+  .ol_card_content .ol_thum {
+    max-width: 252px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 23px;
+  }
+  /*============ section_Οι (5) Area Start =============*/
+  .section_floor {
+    padding-bottom: 120px;
+  }
+
+  .section_floor .container {
+    max-width: 968px;
+    height: 400px;
+  }
+
+  .section_floor_content {
+    padding: 0 100px;
+    font-size: 24px;
+  }
+  .section_floor .container::after {
+    height: 170px;
+  }
+
+  /*============ section__flor Area End =============*/
+
+  /*============section_gallary (6) Area Start =============*/
+
+  .section_gallary {
+    padding-bottom: 115px;
+  }
+  .section_gallary_header h1 {
+    font-size: 36px;
+    margin-bottom: 48px;
+  }
+
+  .section_gallary .gallary_wrapper .owl-nav .owl-prev {
+    margin-left: -60px;
+  }
+
+  .section_gallary .gallary_wrapper .owl-nav .owl-next {
+    margin-right: -60px;
+  }
+
+  /* uac section  */
+  .section_uac {
+    padding-top: 120px;
+  }
+
+  .uac_header {
+    font-size: 36px;
+  }
+
+  /*============ section_gallary Area End =============*/
+  /* footer area start from here  */
+
+  .section_footer .container {
+    max-width: 968px;
+  }
+
+  .footer_content {
+    padding-top: 38px;
+    padding-bottom: 50px;
+  }
+
+  .footer_left_content ul li {
+    font-size: 16px;
+  }
+
+  .footer_left_content {
+    gap: 36px;
+    padding-left: 0;
+  }
+
+  .footer_left_content__address li,
+  .footer_left_content__contact li {
+    margin-bottom: 7px;
+  }
+
+  .footer_left_content__contact span {
+    margin-right: 12px;
+  }
+
+  .footer_right_content {
+    padding-right: 0;
+  }
+
+  .footer_right_content ul {
+    gap: 41px;
+  }
+
+  .footer_right_content ul li a {
+    font-size: 16px;
+  }
+
+  /****================================      εταιρία HTml file responsive =================================****/
+
+  .etapia_section_hero_header {
+    font-size: 36px;
+  }
+
+  .etapia_section_hero {
+    height: 500px;
+  }
+
+  .etapia_section_tenteak {
+    margin-top: -205px;
+  }
+  .etapia_section_tenteak::after {
+    height: 150px;
+  }
+
+  .etapia_section_tenteak .container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background: #ebe8e5;
+    padding: 60px;
+  }
+
+  .etapia_section_tenteak .tentalk_content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .etapia_section_tenteak .tenteak_thumb {
+    position: absolute;
+    top: -89px;
+    right: -26px;
+  }
+
+  /****================================      Υπηρεσίες (yrn.html) HTml file responsive =================================****/
+
+  .Υπηρεσίες_section_card_even .container {
+    max-width: 100%;
+  }
+  .Υπηρεσίες_section_card_even {
+    margin: 10px;
+    margin-top: 28px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .Υπηρεσίες_section_hero_bottom .container {
+    max-width: 1040px;
+  }
+  .Υπηρεσίες_section_hero_bottom .container {
+    max-width: 900px;
+  }
+  .Υπηρεσίες_section_card_even_thumb_content h2 {
+    font-size: 20px;
+  }
+  .Υπηρεσίες_section_card_odd_thumb_content h2 {
+    font-size: 20px;
+  }
+
+  .Υπηρεσίες_section_card_even_thumb_content p {
+    padding: 15px 0;
+  }
+  .Υπηρεσίες_section_card_odd_thumb_content p {
+    padding: 15px 0;
+  }
+
+  /****================================      Tα έργα μας (tae.html) HTml file responsive =================================****/
+
+  .controls {
+    justify-content: space-evenly;
+  }
+
+  /****================================      Επικοινωνία (erl.html) HTml file responsive =================================****/
+  .Επικοινωνία_contact_form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .Επικοινωνία_map {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 0 40px;
+  }
+
+  .Επικοινωνία_map_content {
+    padding-right: 0;
+  }
+
+  .Επικοινωνία_contact .container > .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Επικοινωνία_contact {
+    margin-top: 100px;
+  }
+}
+
+/********* Tablet screen :768px. ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* =====================================================================================
+            index.html section css
+    ==================================================================================== */
+
+  .section_header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* hero section  */
+  .hero_section .hero_wrapper .single_slide {
+    height: 500px;
+  }
+  .hero_section .hero_wrapper .hero_content h1 {
+    font-size: 28px;
+  }
+  .hero_section .hero_wrapper .hero_content span {
+    font-size: 20px;
+  }
+
+  .brand_logo {
+    max-width: 80px;
+    bottom: 25%;
+    width: 100%;
+  }
+
+  .hero_section .hero_wrapper .owl-dots {
+    top: 35%;
+    right: 4%;
+    gap: 8px;
+  }
+
+  .hero_section .hero_wrapper .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+  }
+
+  .hero_section .hero_wrapper .owl-dots .owl-dot.active span {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* ---- hero_bottom_content section start----  */
+
+  .inner_single_hero_bottom_slide_thumb {
+    max-width: 200px;
+  }
+
+  .hero_bottom_content {
+    margin-top: -100px;
+  }
+
+  .inner_single_hero_bottom_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 29px;
+    padding-right: 60px;
+    gap: 33px;
+  }
+
+  .inner_single_hero_bottom_slide_content h2 {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+
+  .inner_single_hero_bottom_slide_content p {
+    font-size: 16px;
+  }
+
+  .hero_bottom_content .hero_bottom_content_wrapper .owl-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+
+  /*=========== hero bottom section end ======== */
+
+  /* noinoi section  */
+  .section__noioi .container {
+    max-width: 968px;
+  }
+
+  .section__noioi {
+    padding-top: 145px;
+  }
+
+  .section__noioi_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .section__noioi_content p {
+    max-width: 485px;
+    text-align: center;
+  }
+
+  .section__noioi_content h2::before {
+    width: calc(100% + 80px);
+    left: -40px;
+  }
+
+  .section__noioi_thumb {
+    max-width: 380px;
+    height: auto;
+  }
+  .section__noioi_thumb::after {
+    width: 266px;
+    height: 289px;
+  }
+
+  /* ol section  */
+  .section_Οι {
+    padding-bottom: 135px;
+    padding-top: 200px;
+  }
+  .Οι_header {
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+  .ol_card_content .ol_thum {
+    max-width: 252px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 23px;
+  }
+  /*============ section_Οι (5) Area Start =============*/
+  .section_floor {
+    padding-bottom: 120px;
+  }
+
+  .section_floor .container {
+    max-width: 968px;
+    height: 400px;
+  }
+
+  .section_floor_content {
+    padding: 0 100px;
+    font-size: 24px;
+  }
+  .section_floor .container::after {
+    height: 150px;
+  }
+
+  /*============ section__flor Area End =============*/
+
+  /*============section_gallary (6) Area Start =============*/
+
+  .section_gallary {
+    padding-bottom: 115px;
+  }
+  .section_gallary_header h1 {
+    font-size: 36px;
+    margin-bottom: 48px;
+  }
+
+  .section_gallary .gallary_wrapper .owl-nav .owl-prev {
+    margin-left: -60px;
+  }
+
+  .section_gallary .gallary_wrapper .owl-nav .owl-next {
+    margin-right: -60px;
+  }
+
+  /* uac section  */
+  .section_uac {
+    padding-top: 120px;
+  }
+
+  .uac_header {
+    font-size: 36px;
+  }
+
+  /* uac  */
+  .inner_single_uac_wrapper {
+    padding: 40px 20px;
+  }
+
+  /*============ section_gallary Area End =============*/
+  /* footer area start from here  */
+
+  .section_footer .container {
+    max-width: 968px;
+  }
+
+  .footer_content {
+    padding-top: 38px;
+    padding-bottom: 50px;
+  }
+
+  .footer_left_content ul li {
+    font-size: 16px;
+  }
+
+  .footer_left_content {
+    gap: 36px;
+    padding-left: 0;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .footer_left_content__address li,
+  .footer_left_content__contact li {
+    margin-bottom: 7px;
+  }
+
+  .footer_left_content__contact span {
+    margin-right: 12px;
+  }
+
+  .footer_right_content {
+    padding-right: 0;
+  }
+
+  .footer_right_content ul {
+    gap: 41px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .footer_right_content ul li a {
+    font-size: 16px;
+  }
+  /****================================      εταιρία HTml file responsive =================================****/
+
+  .etapia_section_hero_header {
+    font-size: 30px;
+  }
+
+  .etapia_section_hero {
+    height: 500px;
+  }
+
+  .etapia_section_tenteak {
+    margin-top: -205px;
+  }
+
+  .etapia_section_tenteak .tentalk_content p {
+    font-size: 20px;
+  }
+
+  .etapia_section_tenteak .tentalk_content span {
+    font-size: 16px;
+  }
+
+  .etapia_section_tenteak::after {
+    height: 150px;
+  }
+
+  .etapia_section_tenteak .container {
+    max-width: 100%;
+    padding: 60px;
+  }
+
+  .etapia_section_tenteak .tentalk_content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .etapia_section_tenteak .tenteak_thumb {
+    position: absolute;
+    top: -68px;
+    right: 16px;
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .section_gallary_εταιρία {
+    padding: 120px 0;
+  }
+
+  /****================================      Υπηρεσίες (yrn.html) HTml file responsive =================================****/
+
+  .Υπηρεσίες_section_card_even .container {
+    max-width: 100%;
+  }
+  .Υπηρεσίες_section_card_even {
+    margin: 10px;
+    margin-top: 28px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .Υπηρεσίες_section_hero_bottom .container {
+    max-width: 100%;
+  }
+  .Υπηρεσίες_section_hero_bottom ul {
+    justify-content: space-around;
+  }
+
+  .Υπηρεσίες_section_card_even_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Υπηρεσίες_section_card_odd_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Υπηρεσίες_section_card_even_thumb_content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Υπηρεσίες_section_card_odd_thumb_content {
+    order: 2;
+    text-align: center !important;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .Υπηρεσίες_section_card_even_thumb_content h2 {
+    font-size: 20px;
+  }
+  .Υπηρεσίες_section_card_even_thumb_content h2::before {
+    width: calc(100% + 100px);
+    left: -50px;
+  }
+  .Υπηρεσίες_section_card_odd_thumb_content h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .Υπηρεσίες_section_card_odd_thumb_content h2::before {
+    width: calc(100% + 100px);
+    left: -50px;
+  }
+
+  .Υπηρεσίες_section_card_odd_thumb {
+    order: 1;
+  }
+
+  .Υπηρεσίες_section_card_even_thumb_content p {
+    padding: 15px 0;
+  }
+  .Υπηρεσίες_section_card_odd_thumb_content p {
+    padding: 15px 0;
+    text-align: center;
+  }
+  .text-end {
+    display: unset;
+  }
+
+  /****================================      Tα έργα μας (tae.html) HTml file responsive =================================****/
+
+  .controls {
+    justify-content: space-evenly;
+  }
+
+  /****================================      Tα έργα μας (tae.html) HTml file responsive =================================****/
+
+  .controls {
+    justify-content: space-evenly;
+  }
+
+  /****================================      Επικοινωνία (erl.html) HTml file responsive =================================****/
+
+  .Επικοινωνία_hero .Επικοινωνία_hero__header {
+    font-size: 45px;
+    padding-top: 125px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .Επικοινωνία_contact_form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .Επικοινωνία_map {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px;
+  }
+
+  .Επικοινωνία_map_thumb{
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .Επικοινωνία_map_thumb img{
+    height: 100%;
+  }
+
+  .Επικοινωνία_map_content {
+    padding-right: 0;
+  }
+
+  .Επικοινωνία_contact .container > .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Επικοινωνία_contact {
+    margin-top: 100px;
+    padding-bottom: 120px;
+  }
+}
+
+/***** small screen :320px. ****/
+@media (max-width: 767px) {
+  /**** =============================== Index HTml file responsive ================================*** */
+  .bar a {
+    top: -18px;
+  }
+  .section_header {
+    background: #fff;
+    padding-top: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: -50px;
+  }
+
+  .section_header .hader_left .logo {
+    width: 100px;
+    position: relative;
+    top: -24px;
+    z-index: 5;
+  }
+
+  /* hero section  */
+
+  .hero_section .hero_wrapper .single_slide {
+    height: 500px;
+  }
+  .hero_section .hero_wrapper .hero_content h1 {
+    font-size: 28px;
+  }
+  .hero_section .hero_wrapper .hero_content span {
+    font-size: 20px;
+  }
+
+  .brand_logo {
+    max-width: 80px;
+    bottom: 25%;
+    width: 100%;
+  }
+
+  .hero_section .hero_wrapper .owl-dots {
+    top: 35%;
+    right: 4%;
+    gap: 8px;
+  }
+
+  .hero_section .hero_wrapper .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+  }
+
+  .hero_section .hero_wrapper .owl-dots .owl-dot.active span {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* ---- hero_bottom_content section start----  */
+
+  .hero_bottom_content {
+    margin-top: 80px;
+  }
+
+  .inner_single_hero_bottom_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    padding-right: 0;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .inner_single_hero_bottom_slide_thumb {
+    margin: 0 auto;
+  }
+
+  .inner_single_hero_bottom_slide_content h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .inner_single_hero_bottom_slide_content h2::after {
+    width: 100%;
+    bottom: -12px;
+    left: 0;
+  }
+
+  .inner_single_hero_bottom_slide_content p {
+    font-size: 17px;
+    font-family: var(--font--CCommissioner-light);
+    color: #3f4d67;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .hero_bottom_content .hero_bottom_content_wrapper .owl-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+    gap: 30px;
+    bottom: -60px;
+    right: 50%;
+  }
+
+  .hero_bottom_content .hero_bottom_content_wrapper .owl-nav .owl-prev {
+    margin-left: -35px;
+  }
+
+  .hero_bottom_content .hero_bottom_content_wrapper .owl-nav .owl-next {
+    margin-right: -35px;
+  }
+
+  .hero_bottom_content .hero_bottom_content_wrapper .owl-nav .owl-prev img {
+    width: 15px;
+  }
+
+  .hero_bottom_content .hero_bottom_content_wrapper .owl-nav .owl-next img {
+    width: 15px;
+  }
+
+  /*=========== hero bottom section end ======== */
+
+  /* noinoi section  */
+  .section__noioi .container {
+    max-width: 968px;
+  }
+
+  .section__noioi {
+    padding-top: 145px;
+  }
+
+  .section__noioi_content {
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section__noioi_content h1 {
+    font-size: 30px;
+    padding-bottom: 28px;
+  }
+
+  .section__noioi_content p {
+    max-width: 100%;
+    font-size: 16px;
+    padding: 0 13px;
+  }
+
+  .section__noioi_content h2::before {
+    width: calc(100% + 80px);
+    left: -40px;
+  }
+
+  .section__noioi_thumb {
+    /* max-width: 380px; */
+    max-width: 220px;
+    height: auto;
+  }
+  .section__noioi_thumb::before {
+    width: 135px;
+    height: 158px;
+    top: -20px;
+    left: -20px;
+  }
+  .section__noioi_thumb::after {
+    width: 135px;
+    height: 158px;
+    bottom: -20px;
+    right: -20px;
+  }
+
+  /* ol section  */
+  .section_Οι {
+    padding-bottom: 135px;
+    padding-top: 165px;
+  }
+  .Οι_header {
+    font-size: 30px;
+    margin-bottom: 36px;
+  }
+  .ol_card_content .ol_thum {
+    max-width: 252px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 23px;
+  }
+  /*============ section_Οι (5) Area Start =============*/
+  .section_floor {
+    padding-bottom: 80px;
+  }
+
+  .section_floor .container {
+    max-width: 100%;
+    height: 320px;
+  }
+
+  .section_floor_content {
+    padding: 0 10px;
+    font-size: 17px;
+  }
+  .section_floor .container::after {
+    height: 100px;
+  }
+
+  /*============ section__flor Area End =============*/
+
+  /*============section_gallary (6) Area Start =============*/
+
+  .section_gallary {
+    padding-bottom: 100px;
+  }
+
+  .section_gallary_header h1 {
+    font-size: 28px;
+    margin-bottom: 36px;
+  }
+
+  .section_gallary .gallary_wrapper .owl-nav .owl-prev {
+    margin-left: -25px;
+  }
+
+  .section_gallary .gallary_wrapper .owl-nav .owl-next {
+    margin-right: -25px;
+  }
+
+  /* uac section  */
+  .section_uac {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .uac_header {
+    font-size: 28px;
+  }
+
+  .inner_single_uac_wrapper p {
+    font-size: 17px;
+    margin-bottom: 34px;
+  }
+
+  /* uac  */
+  .inner_single_uac_wrapper {
+    padding: 40px 20px;
+  }
+
+  /*============ section_gallary Area End =============*/
+  /* footer area start from here  */
+
+  .section_footer .container {
+    max-width: 100%;
+  }
+
+  .footer_content {
+    padding-top: 38px;
+    padding-bottom: 50px;
+  }
+
+  .footer_left_content ul li {
+    font-size: 16px;
+  }
+
+  .footer_left_content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer_left_content__address li,
+  .footer_left_content__contact li {
+    margin-bottom: 7px;
+  }
+
+  .footer_left_content__contact span {
+    margin-right: 12px;
+  }
+
+  .footer_right_content {
+    padding-right: 0;
+  }
+
+  .footer_right_content ul {
+    gap: 10px;
+    align-items: start;
+    justify-content: start;
+    padding-top: 50px;
+    padding-left: 25px;
+    flex-direction: column;
+  }
+
+  .footer_right_content ul li a {
+    font-size: 16px;
+  }
+  .footer_copyright {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+  }
+
+  /****================================      εταιρία HTml file responsive =================================****/
+
+  .etapia_section_hero_header {
+    font-size: 30px;
+  }
+
+  .etapia_section_hero {
+    height: 500px;
+  }
+
+  .etapia_section_tenteak {
+    margin-top: -200px;
+  }
+
+  .etapia_section_tenteak .tentalk_content p {
+    font-size: 20px;
+  }
+
+  .etapia_section_tenteak .tentalk_content span {
+    font-size: 16px;
+  }
+
+  .etapia_section_tenteak::after {
+    height: 150px;
+  }
+
+  .etapia_section_tenteak .container {
+    max-width: 100%;
+    padding: 80px 0;
+  }
+
+  .etapia_section_tenteak .tentalk_content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .etapia_section_tenteak .tenteak_thumb {
+    position: absolute;
+    top: -68px;
+    right: 16px;
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .section_gallary_εταιρία {
+    padding: 80px 0;
+  }
+  /****================================      Υπηρεσίες (yrn.html) HTml file responsive =================================****/
+  .Υπηρεσίες_section_hero {
+    height: 300px;
+  }
+  .Υπηρεσίες_section_hero h1 {
+    font-size: 32px;
+  }
+  .Υπηρεσίες_section_card_even .container {
+    max-width: 100%;
+  }
+
+  .Υπηρεσίες_section_hero_bottom .container {
+    max-width: 100%;
+  }
+  .Υπηρεσίες_section_hero_bottom ul {
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .Υπηρεσίες_section_card_even {
+    margin: 10px;
+    margin-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .Υπηρεσίες_section_card_odd {
+    padding: 20px 0;
+  }
+
+  .Υπηρεσίες_section_card_even_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Υπηρεσίες_section_card_odd_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Υπηρεσίες_section_card_even_thumb_content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Υπηρεσίες_section_card_odd_thumb_content {
+    order: 2;
+    text-align: center !important;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .Υπηρεσίες_section_card_even_thumb_content h2 {
+    font-size: 20px;
+  }
+  .Υπηρεσίες_section_card_even_thumb_content h2::before {
+    width: calc(100% + 100px);
+    left: -50px;
+  }
+  .Υπηρεσίες_section_card_odd_thumb_content h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .Υπηρεσίες_section_card_even_thumb::before {
+    width: 60%;
+    height: 80%;
+    bottom: -20px;
+    left: -20px;
+  }
+  .Υπηρεσίες_section_card_odd_thumb::before {
+    width: 60%;
+    height: 80%;
+    bottom: -20px;
+    right: -20px;
+  }
+
+  .Υπηρεσίες_section_card_odd_thumb_content h2::before {
+    width: calc(100% + 100px);
+    left: -50px;
+  }
+
+  .Υπηρεσίες_section_card_odd_thumb {
+    order: 1;
+  }
+
+  .Υπηρεσίες_section_card_even_thumb_content p {
+    padding: 15px 0;
+  }
+  .Υπηρεσίες_section_card_odd_thumb_content p {
+    padding: 15px 0;
+    text-align: center;
+  }
+  .text-end {
+    display: unset;
+  }
+
+  /****================================      Tα έργα μας (tae.html) HTml file responsive =================================****/
+
+  .controls {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    max-width: 100%;
+    padding: 30px 0;
+  }
+  .controls li {
+    padding: 20px 0;
+    height: 0;
+  }
+  /****================================      Επικοινωνία (erl.html) HTml file responsive =================================****/
+
+  .Επικοινωνία_hero .Επικοινωνία_hero__header {
+    font-size: 36px;
+    padding-top: 125px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .Επικοινωνία_contact_form {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 40px 20px;
+  }
+
+  .Επικοινωνία_contact_form h2{
+    font-size: 32px;
+  }
+
+  .Επικοινωνία_contact_form .input_box label {
+    font-size: 16px;
+  }
+  .Επικοινωνία_contact_form .input_box input{
+    height: 42px;
+  }
+
+  .Επικοινωνία_contact_form .contact__btn{
+    font-size: 14px;
+    padding: 14px 0;
+  }
+  .Επικοινωνία_contact_form::before {
+    display: none;
+  }
+  .Επικοινωνία_contact_form::after {
+    display: none;
+  }
+
+  .Επικοινωνία_map {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px;
+  }
+
+  .Επικοινωνία_map_thumb{
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .Επικοινωνία_map_thumb img{
+    height: 100%;
+  }
+
+  .Επικοινωνία_map_content {
+    padding-right: 0;
+    flex-direction: column;
+  }
+
+  .Επικοινωνία_contact .container > .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Επικοινωνία_contact {
+    margin-top: 100px;
+    padding-bottom: 120px;
+  }
+}
